@@ -11,7 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SMO.UI.Embedded.Basic.lvclass" Type="LVClass" URL="../SMO.EmbeddedUI/SMO.UI.Embedded.Basic.lvclass"/>
+		<Item Name="build support" Type="Folder">
+			<Item Name="SMO_EmbeddedUITemplate.vipb" Type="Document" URL="../../build support/SMO_EmbeddedUITemplate.vipb"/>
+			<Item Name="SMO_EmbeddedUITemplate.vipc" Type="Document" URL="../../build support/SMO_EmbeddedUITemplate.vipc"/>
+		</Item>
+		<Item Name="SMO.UI.Embedded.Basic.lvclass" Type="LVClass" URL="../SMO.Embedded.UI.Basic/SMO.UI.Embedded.Basic.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
